@@ -15,7 +15,6 @@ function generateMarkdown(data) {
   ## Deployed Application URL
   ${data.link}
   ## Table of Contents
-  * [Features](#features)
   * [Languages & Dependencies](#languagesanddependencies)
   * [How to Use This Application](#HowtoUseThisApplication)
   * [Contributors](#contributors)
