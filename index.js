@@ -16,7 +16,17 @@ const questions = [
         message: "Please describe the purpose and functionality of your project.",
     },
     {
-        type: "list",
+        type: "input",
+        name: "screenshot",
+        message: "Please provide the relative path to the image you want to use as the screenshot."
+    },
+    {
+        type: "input",
+        name: "link",
+        message: "Please provide a URL where a user can access your deployed application."
+    },
+    {
+        type: "checkbox",
         name: "license",
         message: "Please select a license applicable to this project.",
         choices: ["MIT", "APACHE2.0", "Boost1.0", "MPL2.0", "BSD2", "BSD3", "none"],
@@ -44,7 +54,7 @@ const questions = [
     {
         type: "input",
         name: "contributing",
-        message: "Please provide your contribution guidelines.",
+        message: "Please provide your contributor guidelines or if you had any contributors for your project.",
     },
     {
         type: "input",
@@ -72,7 +82,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((responses) => {
         console.log("Creating Professional README.md File");
-        writeToFile("output/README.md", generateMarkdown({...responses}));
+        writeToFile("output/README.md", generateMarkdown({ ...responses }));
     });
 };
 
