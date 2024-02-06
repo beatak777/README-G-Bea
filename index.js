@@ -17,11 +17,6 @@ const questions = [
     },
     {
         type: "input",
-        name: "screenshot",
-        message: "Please provide the relative path to the image you want to use as the screenshot."
-    },
-    {
-        type: "input",
         name: "link",
         message: "Please provide a URL where a user can access your deployed application."
     },
@@ -53,8 +48,8 @@ const questions = [
     },
     {
         type: "input",
-        name: "contributing",
-        message: "Please provide your contributor guidelines or if you had any contributors for your project.",
+        name: "contributors",
+        message: "Please list any contributors.",
     },
     {
         type: "input",
@@ -65,11 +60,6 @@ const questions = [
         type: "input",
         name: "installation",
         message: "Please provide installation instructions."
-    },
-    {
-        type: "input",
-        name: "questions",
-        message: "Enter what you would like to include in the questions section"
     },
 ];
 

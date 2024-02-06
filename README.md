@@ -19,7 +19,8 @@ n/a
 Run 'node index.js' in the command line. 
 
  [Link to video demonstration]()
-  
+
+ [Link to Github REPO]()
   
   ## Contributions
   
@@ -29,7 +30,7 @@ The following resources were also utilized:
 
 - [Screencastify](https://www.screencastify.com/) was used for recording a video walkthrough of the application functionality.
 
-- Additionally information was utilised from [NPMJS](https://www.npmjs.com/package/inquirer) in order to create a working app.
+- Additionally information was utilised from [npmjs inquirer](https://www.npmjs.com/package/inquirer) in order to create a working app.
 
 
 ## Tests

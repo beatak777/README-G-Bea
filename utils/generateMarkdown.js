@@ -9,21 +9,17 @@ function renderLicenseBadge(license) {
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-
   ${renderLicenseBadge(data.license)}
   ## Description
   ${data.description}
   ## Deployed Application URL
   ${data.link}
-  ## Screenshot
-  ![alt-text](${data.screenshot})
   ## Table of Contents
   * [Features](#features)
   * [Languages & Dependencies](#languagesanddependencies)
   * [How to Use This Application](#HowtoUseThisApplication)
   * [Contributors](#contributors)
   * [Testing](#testing)
-  * [Installation](#installation)
   * [Questions](#questions)
   ## Features
   ${data.features}
@@ -36,7 +32,7 @@ function generateMarkdown(data) {
   ## Testing
   ${data.test}
   ## Questions
-  IF you have any questions please contact me on the following e-mail [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.creator}](https://github.com/${data.creator}).
+  If you have any questions please contact me on the following e-mail [here](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect) or visit [github/${data.creator}](https://github.com/${data.creator}).
 `;
 }
 
