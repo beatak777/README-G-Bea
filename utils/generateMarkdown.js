@@ -20,8 +20,6 @@ function generateMarkdown(data) {
   * [Contributors](#contributors)
   * [Testing](#testing)
   * [Questions](#questions)
-  ## Features
-  ${data.features}
   ## Languages & Dependencies
   ${data.require}
   ## How to Use This Application:
