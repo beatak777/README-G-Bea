@@ -1,7 +1,7 @@
 # README Generator
 
 ## Description
-  This README File Generator Showcases the utilised knowledge from EdX Bootcamp Week 11. The created app helps developers to create a README>md file by using a series of questions through the inquirer package and utilised knowlegde of Node.js and ES6. 
+  This README File Generator Showcases the utilised knowledge from EdX Bootcamp Week 11. The created app helps developers to create a README.md file by using a series of questions through the inquirer package and utilised knowlegde of Node.js and ES6. 
   
   ## Table of Contents 
   
@@ -20,7 +20,6 @@ Run 'node index.js' in the command line.
 
  [Link to video demonstration]()
 
- [Link to Github REPO]()
   
   ## Contributions
   

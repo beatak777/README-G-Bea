@@ -12,7 +12,7 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
   ## Description
   ${data.description}
-  ## Deployed Application URL
+  ## Deployed Application URL 
   ${data.link}
   ## Table of Contents
   * [Languages & Dependencies](#languagesanddependencies)
